@@ -1,2 +1,2 @@
 # tatooine
-Aquí se encontrarán las tareas de Paula Ssun en su estadía en Kondosoft
+Aquí se encontrarán las tareas de Paula Sshun en su estadía en Kondosoft.
