@@ -2,6 +2,7 @@
 # Flujo de trabajo en Git
 
 Es importante que cuando varios desarrolladores trabajan en un mismo proyecto, versionado con ***Git***, esté bien definido un flujo de trabajo y de ramificaciones.
+
 !["Git"](https://www.soe.uagrm.edu.bo/wp-content/uploads/2017/05/git-github.jpg)
 
 Ya sabemos que ***Git*** es un sistema de control de versiones distribuido en el que cada desarrollador es un repositorio independiente, aunque en algún caso se cuente con un repositorio central, en el que el trabajo con ramas es extremadamente sencillo, pudiendo mantener a la vez distintas ramas abiertas, usándolas en diferentes momentos del desarrollo y fusionándolas con frecuencia. Dada la facilidad para trabajar con ramas en Git, hay que ser cuidadosos y no caer en el error de crear ramas descontroladamente haciendo que el repositorio resulte caótico.
@@ -33,7 +34,7 @@ El código tiene 3 status en cada diferente fase, las más comunes son:
 Cuando modificamos algo de nuestro código, se vuelve en status **modificado**.
 Comprobamos esto con el comando **git status**, así veremos cuando un archivo ha sido modificado o creado.
 
-!["Untrack file"](file:///Users/HDH-V/Desktop/SSdeLaTerminal.png "**Untrackedfiles** es para archivos recién creados y **modified** para los modificados")
+!["Untrack file"](file:///Users/HDH-V/Desktop/SSdeLaTerminal.png)
 
 Después de que hicimos los cambios necesarios pasamos a la siguiente etapa ***Staging Area***
 
