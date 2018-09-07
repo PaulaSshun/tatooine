@@ -2,7 +2,7 @@
 # Flujo de trabajo en Git
 
 Es importante que cuando varios desarrolladores trabajan en un mismo proyecto, versionado con ***Git***, esté bien definido un flujo de trabajo y de ramificaciones.
-!["Git"](https://www.google.com.mx/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiIuKqG4andAhUCvlkKHbi0CKEQjRx6BAgBEAU&url=https%3A%2F%2Fwww.ithands.com%2Fblog%2Fmanaging-code-git%2F&psig=AOvVaw3J3jUhyyPIuEMmijC8kG6y&ust=1536439340224976)
+!["Git"](https://www.soe.uagrm.edu.bo/wp-content/uploads/2017/05/git-github.jpg)
 
 Ya sabemos que ***Git*** es un sistema de control de versiones distribuido en el que cada desarrollador es un repositorio independiente, aunque en algún caso se cuente con un repositorio central, en el que el trabajo con ramas es extremadamente sencillo, pudiendo mantener a la vez distintas ramas abiertas, usándolas en diferentes momentos del desarrollo y fusionándolas con frecuencia. Dada la facilidad para trabajar con ramas en Git, hay que ser cuidadosos y no caer en el error de crear ramas descontroladamente haciendo que el repositorio resulte caótico.
 
@@ -15,7 +15,7 @@ git push -u origin master
 ~~~
 Pero, ¿qué significa "***add***" y "***commit***"? ¿Por qué pasamos por estas dos fases?
 
-!["Ejemplo"](https://www.google.com.mx/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiN86Td4KndAhVJtlkKHVz-DJgQjRx6BAgBEAU&url=https%3A%2F%2Fmedium.com%2F%40_moisesdelacruz%2Ftutorial-b%25C3%25A1sico-de-git-y-github-42e46ff41194&psig=AOvVaw3J3jUhyyPIuEMmijC8kG6y&ust=1536439340224976)
+!["Ejemplo"](https://cdn-images-1.medium.com/max/686/1*diRLm1S5hkVoh5qeArND0Q@2x.png)
 
 Ya habíamos visto anteriormente las fases de git, sino echale un vistazo a [GIT](https://github.com/PaulaSshun/tatooine/tree/master/SPRINT-2/01-GIT).
 
