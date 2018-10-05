@@ -1,4 +1,4 @@
-#Shorcuts de markdown en ATOM
+# Shorcuts de markdown en ATOM
 
 Atom tiene una colección de snippets para Markdown, les mostraré algunos Shorcuts para este.
 ![ejemplo](https://ericecholslive.files.wordpress.com/2013/02/shortcut.jpg)
@@ -30,5 +30,3 @@ Atom tiene una colección de snippets para Markdown, les mostraré algunos Shorc
 `cmd-j cmd-d`  |Saltar al marcador de referencia / definición
 `markdown-writer: fold-links`  |Comandos plegables: doblar todos los enlaces en línea .
 `markdown-writer: open-link-in-browser`  |Abra un enlace debajo del cursor en el navegador , y esto funciona en los enlaces de referencia.
-``  |
-``  |

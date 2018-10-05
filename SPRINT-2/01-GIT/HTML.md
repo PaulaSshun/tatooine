@@ -91,7 +91,7 @@ De igual manera se puede **resaltar** el texto importante con esta etiqueta que 
 ~~~
 
 ### < br >
-Esta etiqueta permite dejar un espacio entre columna o texto, produce un salto de línea. Es útil para escribir un poema o una dirección, donde la división de las líneas es importante, No utilices **<br>** para incrementar el espacio entre líneas de texto; para ello utiliza la propiedad margin de CSS o el elemento **<p>**.
+Esta etiqueta permite dejar un espacio entre columna o texto, produce un salto de línea. Es útil para escribir un poema o una dirección, donde la división de las líneas es importante, No utilices **< br>** para incrementar el espacio entre líneas de texto; para ello utiliza la propiedad margin de CSS o el elemento **< p>**.
 ~~~
 <p>
 
@@ -128,7 +128,7 @@ Estas etiquetas sirven para hacer listas ordenadas o desordenadas.
 ### < img>
 Claro que en nuestra página no pueden faltar las imágenes para darle mejoras visuales.
 Requiere de dos atributos: **src** y **alt**. Las imágenes técnicamente no son insertadas en una página html, las imágenes son vinculadas a las páginas de html. La etiqueta < img> crea un espacio de retención para la imagen a la que hace referencia.  
-Se puede hacer que una imagen te mande a otra página, tipo link, pero se necesita de otra etiqueta **<a>**.  
+Se puede hacer que una imagen te mande a otra página, tipo link, pero se necesita de otra etiqueta **< a>**.  
 Dónde **src** es el link de la página y **alt** la descripción que le queramos dar.
 ~~~
 <p>
@@ -240,9 +240,12 @@ El atributo que se usa es **href** y dentro se pone el link.
 </table>
 
 </body>
+
 ##### Colspan y rowspan
+
 1. **Colspan:** Los datos pueden abarcar columnas utilizando el atributo *"colspan"*. Los atributos aceptan un número entero (mayor que o igual a 1) para indicar el número de columnas que abarca.
 2. **Spanning rows:** Pueden abarcar varias filas los datos utilizando *rowspan*. Se utiliza para datos que abarcan varias filas (tal vez un evento continúa durante varias horas en un día determinado.) Acepta un número entero (>=1 ) para indicar el número de filas que abarcar.
+
 ~~~
 <table>
 <tr>
@@ -264,6 +267,7 @@ El atributo que se usa es **href** y dentro se pone el link.
  <td colspan="2">dormir</td>
 </table>
 ~~~
+
 <table>
 <tr>
  <th></th>
@@ -283,9 +287,11 @@ El atributo que se usa es **href** y dentro se pone el link.
 <th>Noche</th>
  <td colspan="2">dormir</td>
 </table>
+
 3. **Scope:** indica las celdas para las que esta celda será su cabecera.  
    Ejemplo: **scope="col"** indica que esta celda es la cabecera de todas las demás celdas que están en la misma columna.  
-**row**: Este valor deja en claro que el encabezado es para una fila.
+4. **row**: Este valor deja en claro que el encabezado es para una fila.
+
 ~~~
 <table>
  <tr>
@@ -300,6 +306,7 @@ El atributo que se usa es **href** y dentro se pone el link.
 </tr>
 </table>
 ~~~
+
 <table>
  <tr>
   <th></th>
@@ -312,8 +319,11 @@ El atributo que se usa es **href** y dentro se pone el link.
  <td>81</td>
 </tr>
 </table>
+
 ![Tablas](https://image.slidesharecdn.com/5-tablasenhtml-120212220739-phpapp01/95/tema-5-tablas-en-html-5-728.jpg?cb=1329084579)
+
 ![Tablas2](https://image.slidesharecdn.com/5-tablasenhtml-120212220739-phpapp01/95/tema-5-tablas-en-html-6-728.jpg?cb=1329084579)
 
 Estas son las etiquetas más usuales en HTML, estás listo para ponerlas en prática.  
+
 `Paula Sshun 2018 ®`
