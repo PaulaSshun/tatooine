@@ -2,13 +2,13 @@
 # Flujo de trabajo en Git
 
 Es importante que cuando varios desarrolladores trabajan en un mismo proyecto, versionado con ***Git***, esté bien definido un flujo de trabajo y de ramificaciones.
-<<<<<<< HEAD
-=======
 
 !["Git"](https://www.soe.uagrm.edu.bo/wp-content/uploads/2017/05/git-github.jpg)
->>>>>>> de03eba026ff9a6ef1738f63ba7ab28a47dc18e9
 
-Ya sabemos que ***Git*** es un sistema de control de versiones distribuido en el que cada desarrollador es un repositorio independiente, aunque en algún caso se cuente con un repositorio central, en el que el trabajo con ramas es extremadamente sencillo, pudiendo mantener a la vez distintas ramas abiertas, usándolas en diferentes momentos del desarrollo y fusionándolas con frecuencia. Dada la facilidad para trabajar con ramas en Git, hay que ser cuidadoso y no caer en el error de crear ramas descontroladamente haciendo que el repositorio resulte caótico.
+
+Ya sabemos que ***Git*** es un sistema de control de versiones distribuido en el que cada desarrollador es un repositorio independiente, aunque en algún caso se cuente con un repositorio central, en el que el trabajo con ramas es extremadamente sencillo, pudiendo mantener a la vez distintas ramas abiertas, usándolas en diferentes momentos del desarrollo y fusionándolas con frecuencia. Dada la facilidad para trabajar con ramas en Git, hay que ser cuidadoso y no caer en el error de crear ramas descontroladamente haciendo que el repositorio resulte caótico.  
+
+!["Ejemplo"](https://cdn-images-1.medium.com/max/1600/0*HeEKExh4Z0nlev1m.png)
 
 Los 3 comandos básicos para agregar nuestro proyecto a Githun, son:
 
@@ -19,28 +19,26 @@ git push -u origin master
 ~~~
 Pero, ¿qué significa "***add***" y ***commit***? ¿Por qué pasamos por estas dos fases?
 
-<<<<<<< HEAD
-!["Ejemplo"](https://cdn-images-1.medium.com/max/1600/0*HeEKExh4Z0nlev1m.png)
-=======
+
 !["Ejemplo"](https://cdn-images-1.medium.com/max/686/1*diRLm1S5hkVoh5qeArND0Q@2x.png)
->>>>>>> de03eba026ff9a6ef1738f63ba7ab28a47dc18e9
+
 
 Ya habíamos visto anteriormente las fases de git, sino las recuerdas regresa a [GIT](https://github.com/PaulaSshun/tatooine/tree/master/SPRINT-2/01-GIT).
 
+Nuestro repositorio local tiene 3 diferentes fases por la cual pasa nuestro código:
+
+1. **Working directory**: En esta parte podemos hacer cualquier cambio y no afectar nuestro repositorio.
+2. **Staging area**: Archivos modificados.
+3. **Git repository**: Archivos confirmados.
+
 El código tiene 3 status en cada diferente fase, las más comunes son:
-<<<<<<< HEAD
-1. Modified
-2. Staged
-3. commited
-=======
+
 1. **Modified**
 2. **Staged**
 3. **commited**
 
 Cuando modificamos algo de nuestro código, se vuelve en status **modificado**.
 Comprobamos esto con el comando **git status**, así veremos cuando un archivo ha sido modificado o creado.
-
-!["Untrack file"](file:///Users/HDH-V/Desktop/SSdeLaTerminal.png)
 
 Después de que hicimos los cambios necesarios pasamos a la siguiente etapa ***Staging Area***
 
@@ -90,4 +88,3 @@ Aquí un ejemplo de lo que acabo de explicar.
 !["Flujo de git"](https://cdn-images-1.medium.com/max/800/1*D1lbqiz2Y6quKrt00p9DqQ.png)
 
 Bien, ahora estás list@  para pulear y pushear, así que a perder el miedo a romper las cosas!
->>>>>>> de03eba026ff9a6ef1738f63ba7ab28a47dc18e9

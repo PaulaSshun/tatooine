@@ -1,11 +1,10 @@
 # Shorcuts de markdown en ATOM
 
 Atom tiene una colección de snippets para Markdown, les mostraré algunos Shorcuts para este.
-
 ![ejemplo](https://ericecholslive.files.wordpress.com/2013/02/shortcut.jpg)
 
-   Shorcuts |Definición  
- :---:|:---:
+  Shorcuts |Definición  
+--|--
   `markdown-writer: correct-order-list-numbers`.|Corrija los números de lista ordenados   
   `shift-cmd-k` |Insertar enlace y vincular automáticamente al texto la próxima vez.
   `-`|Inserte el enlace de referencia con el título. Use `-` en el campo de título para crear un enlace de referencia de título vacío.
@@ -20,7 +19,7 @@ Atom tiene una colección de snippets para Markdown, les mostraré algunos Shorc
 `cmd-i`  | cursiva  
 `cmd-h`  |  rayado
 `shift-cmd- "`  |'' 'bloque de código' ''
-`cmd + k`  | <kbd> llaves </kbd>
+`cmd + k`  | <kbd>llaves</kbd>
 `shift-cmd-U`  |- lista desordenada
 `(shift-cmd-O)`  |0. lista ordenada
 `shift-cmd->`  |> blockquote
