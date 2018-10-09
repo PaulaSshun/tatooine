@@ -63,7 +63,7 @@ Scrum es mucho más prescriptivo que Kanban.
 
 ## ¿En qué comidas se pueden usar? (Aplicación práctica)
 
-**Kanban** da buenos *resultados* a la hora de:
+**Kanban** da buenos **resultados** a la hora de:
 
 - **Detectar y eliminar** cuellos de botella en la ejecución de procesos.
 - **Ejecutar** proyectos de mantenimiento, en particular en ANS (Acuerdos de Nivel de Servicio), dónde el tiempo de respuesta en los procesos y las operaciones críticas es vital.
